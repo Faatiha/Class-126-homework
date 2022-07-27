@@ -1,0 +1,24 @@
+.heading{
+    margin:0px;
+    width:100%;
+    font-size:23px;
+}
+.note{
+    color:black;
+    font-size:13px;
+}
+body{
+    background-size: cover;
+}
+canvas{
+    background-color: #000000;
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: border;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+@keyframes border{
+    from {background-color: red;}
+  to {background-color: blue;}
+}
